@@ -1,0 +1,114 @@
+body{
+    margin: 8;
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    background-color: whitesmoke;
+    min-height : 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.task_area{
+    border: 1px solid lightgray;
+    margin-top: 2em;
+}
+
+
+.task_tabs{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+    text-decoration: none;
+    
+    
+    
+}
+.task_tabs div{
+    padding: 1em;
+    cursor: pointer; 
+}
+
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.taskDone{
+    text-decoration: line-through;
+}
+
+#taskInput{
+    size: 550px;
+}
+
+h1{
+    margin-top   : 150px;
+    text-decoration: none;
+    text-shadow: 1cm;
+}
+
+
+
+#underLine{
+    height: 4px;
+    background-color: rgb(253, 130, 130);
+    position: absolute;
+    width: 0px;
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    transition: 0.5s;
+    
+} 
+
+
+
+
+
+
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 2em;
+}
+
+nav:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+
+nav:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#horizontalUnderline{
+    position: absolute;
+    width: 0;
+    background-color: red;
+    top: 0;
+    left: 0;
+    height: 4px;
+    transition: 0.5s;
+}
+
+
+#verticalUnderline{
+    position: absolute;
+    width: 0;
+    background-color: red;
+    top: 0;
+    left: 0;
+    height: 4px;
+    transition: 0.5s;
+}
